@@ -6,14 +6,14 @@ num2 = int(input('Ingrese B: '))
 def division(numerador, denominador):
     temp = numerador
     cociente = residuo = 0
-    while(temp >= 0):
+    while (temp >= 0):
         temp = temp - denominador 
-        if(temp >= 0):
+        if (temp >= 0):
             residuo = temp
             cociente += 1
     print('Cociente:', cociente, 'Residuo: ', residuo)
 
-if((num1 > 0) & (num2 > 0)):
+if ((num1 > 0) & (num2 > 0)):
     division(num1, num2)    
 else:
     print('No se puede realizar la operacion ambos numeros deben ser mayores a 0.')

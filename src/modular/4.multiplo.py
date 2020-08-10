@@ -7,10 +7,10 @@ multiplo = int(input('Ingrese el multiplo: '))
 
 def multi(b, m):
     div = base // multiplo
-    for i in range(div):
+    for i in range (div):
         num = m * (i + 1)        
-    if(num == b):
-        return 1
+    if (num == b):
+        return (1)
     else:
-        return 0
+        return (0)
 print(multi(base, multiplo))

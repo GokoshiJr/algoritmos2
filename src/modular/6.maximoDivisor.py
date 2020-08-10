@@ -2,17 +2,17 @@
 
 def maximoDivisor(a, b): 
     mayor = menor = resto = 0
-    if(a < b):
+    if (a < b):
         menor = a
         mayor = b
     else:
         mayor = a
         menor = b
-    while(menor != 0):
+    while (menor != 0):
         resto = mayor % menor
         mayor = menor
         menor = resto
-    return(mayor)
+    return (mayor)
 
 a = int(input('Ingrese el valor de A: '))
 b = int(input('Ingrese el valor de B: '))

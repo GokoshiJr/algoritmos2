@@ -7,7 +7,7 @@ def divisores(num):
         if (num % i == 0):
             divisor = i
             sumatoria = sumatoria + divisor            
-    return sumatoria
+    return (sumatoria)
 
 num = int(input('Ingrese un numero entero: '))
 print('La sumatoria de sus divisores es', divisores(num))

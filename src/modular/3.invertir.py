@@ -4,7 +4,7 @@ numero = int(input('Ingrese un numero: '))
 digito = result = 0
 aux = numero
 
-while(aux > 0):
+while (aux > 0):
     digito = aux % 10    
     result = (result * 10) + digito     
     aux //= 10

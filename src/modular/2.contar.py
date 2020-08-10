@@ -4,7 +4,7 @@ num = int(input('Ingrese un numero: '))
 contador = 0
 aux = num
 
-while(aux > 0):    
+while (aux > 0):    
     aux //= 10
     contador += 1
     

@@ -11,7 +11,7 @@ temp = num
 print("-" * 30)
 print(" Digitos Obtenidos:")
 
-while temp != 0:    
+while (temp != 0):    
     dig = temp % 10 # Obtenemos un digito
     print(" ", dig) # Lo mostramos por consola
     suma += dig     # Lo acumulamos en suma

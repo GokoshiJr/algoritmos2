@@ -9,8 +9,8 @@ def amigos(num1, num2, num3, num4):
     s2 = sumaDigitos(num2)
     s3 = sumaDigitos(num3)
     s4 = sumaDigitos(num4)
-    if((num1 > 0) & (num2 > 0) & (num3 > 0) & (num4 > 0)):
-        if(s1 == s2 & s1 == s3 & s1 == s4 & s2 == s3 & s2 == s4 & s3 == s4):
+    if ((num1 > 0) & (num2 > 0) & (num3 > 0) & (num4 > 0)):
+        if (s1 == s2 & s1 == s3 & s1 == s4 & s2 == s3 & s2 == s4 & s3 == s4):
             print('Son amigos')
         else:
             print('No son amigos')
@@ -20,11 +20,11 @@ def amigos(num1, num2, num3, num4):
 def sumaDigitos(num):
     digito = aux = suma = int(0)
     aux = num
-    while(aux > 0):
+    while (aux > 0):
         digito = aux % 10
         suma = suma + digito
         aux //= 10
-    return suma
+    return (suma)
 
 num1, num2, num3, num4 = 324, 225, 81, 153
 amigos(num1, num2, num3, num4)

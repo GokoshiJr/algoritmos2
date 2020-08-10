@@ -3,7 +3,7 @@
 def anexar(base, anexo):
     temp = base
     digito = contador = 0
-    while(temp > 0):        
+    while (temp > 0):        
         contador += 1
         temp //= 10        
     digito = (anexo * pow(10,contador)) + base    
