@@ -1,4 +1,5 @@
-# 5. Encuentre el cociente y el residuo de dos números mayores a cero dados en base a restas sucesivas. Ejemplo: Si A = 435 y B = 21 → Cociente = 20 y Residuo = 15 
+# 5. Encuentre el cociente y el residuo de dos números mayores a cero dados en base a restas 
+# sucesivas. Ejemplo: Si A = 435 y B = 21 → Cociente = 20 y Residuo = 15 
 
 num1 = int(input('Ingrese A: '))
 num2 = int(input('Ingrese B: '))

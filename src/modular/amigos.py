@@ -1,6 +1,6 @@
 # 11. Leer 4 números que sean mayores a cero y determine si son o no amigos. 
 # Un número es amigo del otro, si al sumar todos los dígitos
-#  de cada número es el mismo que el de los otros.
+# de cada número es el mismo que el de los otros.
 # Ejemplo: Si A = 324, B = 225 C = 81 y D = 153 → “Son Amigos” 
 
 def amigos(num1, num2, num3, num4):

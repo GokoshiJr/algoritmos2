@@ -1,8 +1,8 @@
 # 14. Leer un lote de N números y determine el promedio de múltiplos de 7 que contengan, 
 # cuántos son capicúas (Si el número y su inverso son iguales).
 # Ejemplo: Si N = 8 [49, 2, 7, 34, 55, 105, 121, 53]
-#  → Promedio de Múltiplos de 7: 53.67 
-#   Cantidad de Capicúas: 4
+# → Promedio de Múltiplos de 7: 53.67 
+# Cantidad de Capicúas: 4
 
 def capicua(numero):
     aux = numero

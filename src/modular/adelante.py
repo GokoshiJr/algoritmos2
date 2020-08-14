@@ -39,7 +39,7 @@ def adelante(num1, num2):
 salir = False
 while not salir: 
     opcion = menu()
-    if (opcion=="1"):
+    if (opcion == "1"):
         num1 = int(input('Ingrese el numero1:'))
         num2 = int(input('Ingrese el numero2:'))
         if ((cantidadDig(num1) > 3) & (cantidadDig(num2) > 3)):

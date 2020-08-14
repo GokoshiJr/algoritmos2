@@ -1,4 +1,5 @@
-# 13. Leer un número que tenga exactamente 6 dígitos, y elimine todos los dígitos impares que tenga. Ejemplo: Si N = 123456 → N = 246
+# 13. Leer un número que tenga exactamente 6 dígitos, y elimine 
+# todos los dígitos impares que tenga. Ejemplo: Si N = 123456 → N = 246
 
 def impar(num):
     aux = num
