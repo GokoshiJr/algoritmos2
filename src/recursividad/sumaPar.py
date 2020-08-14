@@ -6,8 +6,8 @@ def sumaPar(num):
         return (0) 
     elif (num % 2 == 1):
         print('Error')
-        return (sumaPar(num-1))
+        return (sumaPar(num - 1))
     elif (num % 2 == 0):        
-        return (num + sumaPar(num-2))
+        return (num + sumaPar(num - 2))
 
 print(sumaPar(9))

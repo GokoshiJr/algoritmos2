@@ -1,10 +1,11 @@
 # 11. Cuál es el resultado de esta función para distintos valores de X?
+# 
 # Static int f(int x) {
-#  if (x >100) {
-#  return (x-10);
+#  if (x > 100) {
+#  return (x - 10);
 #  }
 #  else {
-#  return(f(f(x+11)));
+#  return(f(f(x + 11)));
 #   }
 # }
 

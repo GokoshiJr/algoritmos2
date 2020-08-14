@@ -11,16 +11,16 @@
 # N = (n-2) + 2 = (n-2) + 1 + 1 
 
 def descomposicion(num: int) -> str:
-    if(num == 0):
+    if (num == 0):
         return
     if (num == 1):
         return ('1') 
     elif (num > 2):
         if (num > 3):
-            return "%s + %s" % (descomposicion(num - 3) , str(3))        
-        return "%s + %s" % (descomposicion(num - 2) , "2")
+            return ("%s + %s" % (descomposicion(num - 3) , str(3)))        
+        return ("%s + %s" % (descomposicion(num - 2) , "2"))
     else:
-        return "%s + %s" % (descomposicion(num - 1) , "1") 
+        return ("%s + %s" % (descomposicion(num - 1) , "1"))
 
 print(descomposicion(1))
 print(descomposicion(2))
