@@ -1,11 +1,9 @@
-# algoritmos2
-
-This is the algoritmos2 repository, only python are used.
+# algoritmos2-py
 
 ## Install
 
 ```git
-$ git clone https://github.com/GokoshiJr/algoritmos2.git
+$ git clone https://github.com/GokoshiJr/algoritmos2-py.git
 ```
 ## Content
 
@@ -21,7 +19,7 @@ If someone wants to add or improve something, I invite you to collaborate direct
 
 ## License
 
-algoritmos2 is released under the [MIT License](https://opensource.org/licenses/MIT).
+algoritmos2-py is released under the [MIT License](https://opensource.org/licenses/MIT).
 
 ## Resources
 
