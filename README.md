@@ -9,15 +9,15 @@ $ git clone https://github.com/GokoshiJr/algoritmos2.git
 ```
 ## Content
 
-- *[Evaluations]().*
-- *[Modular Programation]().*
-- *[Recursive Programation]().*
-- *[Sorts]().*
-- *[OOP]().*
+- *[Evaluations](https://github.com/GokoshiJr/algoritmos2-py/tree/master/src/examenes).*
+- *[Modular Programation](https://github.com/GokoshiJr/algoritmos2-py/tree/master/src/modular).*
+- *[Recursive Programation](https://github.com/GokoshiJr/algoritmos2-py/tree/master/src/recursividad).*
+- *[Sorts](https://github.com/GokoshiJr/algoritmos2-py/tree/master/src/algoritmos-ordenacion/sorts).*
+- *[OOP](https://github.com/GokoshiJr/algoritmos2-py/tree/master/src/datos-abstractos/practica%20poo).*
 
 ## Contributing
 
-If someone wants to add or improve something, I invite you to collaborate directly in this repository: [algoritmos2]().
+If someone wants to add or improve something, I invite you to collaborate directly in this repository: [algoritmos2](https://github.com/GokoshiJr/algoritmos2-py).
 
 ## License
 
